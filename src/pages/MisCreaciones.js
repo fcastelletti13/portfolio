@@ -6,12 +6,7 @@ import { proyectos } from '../api/proyectos'
 const MisCreaciones = () => {
     const [creaciones, setCreaciones] = useState([]);
     useEffect(() => {
-        fetch('../api/proyectos')
-        .then((response) => {
-            setCreaciones(response)
-            console.log(response)
-        }
-        )
+        setCreaciones(proyectos)
     })
     return (
         <div>
