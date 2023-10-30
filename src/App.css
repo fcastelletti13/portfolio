@@ -69,3 +69,19 @@
   text-decoration: none;
   color: #61dafb;
 }
+
+.img_ptoyect{
+  width: 50%;
+}
+.proyect{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 2%;
+  margin: 0 2%;
+  border-bottom: 2px solid #61dafb ;
+  color: #eeeeee;
+}
+body{
+  background-color: #282c34 ;
+}

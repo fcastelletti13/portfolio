@@ -10,7 +10,7 @@ const MisCreaciones = () => {
     })
     return (
         <div>
-            <h1>Página de creaciones</h1>
+            <h2>Página de creaciones</h2>
             {creaciones?.map(creacion => (
             <Proyect proyecto={creacion} key={creacion.id}/>
             ))}
