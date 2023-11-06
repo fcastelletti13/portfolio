@@ -1,6 +1,7 @@
 import React from 'react';
 import { Outlet, Link } from 'react-router-dom';
 import Footer from './Footer';
+import usuario from '../public/usuario.png'
 
 const Layout = () => {
     return (
@@ -22,6 +23,11 @@ const Layout = () => {
                                 <Link className="nav-link" to="/favoritos">Favoritos</Link>
                             </li>
                         </ul>
+                        <div className='user-btn-container'>
+                            <button className='user-btn'>
+                                <img src={usuario} alt='user' id='userPng'></img>
+                            </button>
+                        </div>
                     </div>
                 </div>
             </nav>

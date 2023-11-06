@@ -2,6 +2,7 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
 import React from "react";
+import UserProvider from './context/UserContext';
 
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
@@ -12,6 +13,7 @@ import Favoritos from "./pages/Favoritos";
 function App() {
   return (
     <div className="App">
+      <UserProvider>
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Layout />}>
@@ -22,6 +24,8 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
+      </UserProvider>
+      
     </div>
   );
 }

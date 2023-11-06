@@ -85,3 +85,20 @@
 body{
   background-color: #282c34 ;
 }
+
+#userPng{
+  filter:  invert(100%);
+  width: 50px;
+}
+.user-btn{
+  background-color:#282c34;
+  width: 200%;
+  border: 2px solid #61dafb;
+}
+
+.user-btn-container{
+  width: 20%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
