@@ -1,7 +1,7 @@
 import React from 'react';
 import { Outlet, Link } from 'react-router-dom';
 import Footer from './Footer';
-import usuario from '../public/usuario.png'
+import usuario from '../assets/usuario.png'
 
 const Layout = () => {
     return (
